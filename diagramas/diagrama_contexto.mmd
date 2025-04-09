@@ -1,0 +1,25 @@
+---
+config:
+    theme: default
+---
+graph TD;
+    subgraph Usuarios
+        Comerciantes["Todero"];
+        Clientes["Clientes"];
+        Admins["Dueño"];
+    end
+
+    subgraph Servicios
+        Chat["💬 Chat/WhatsApp"];
+        Plataforma["AtongaTech"];
+        DB["PostgreSQL (Base de Datos)"];
+        DataWarehouse["📊 Data Warehouse (Analítica)"];
+    end
+
+    Comerciantes -- Envían información --> Chat;
+    Clientes -- Consultan y compran --> Chat;
+    
+    Chat -- Envía y recibe datos --> Plataforma;
+    Plataforma <-- Guarda y recupera datos --> DB;
+    Plataforma <-- Envía datos analíticos --> DataWarehouse;
+    Admins -- Supervisan operaciones --> Plataforma;
