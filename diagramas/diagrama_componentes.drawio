@@ -28,7 +28,7 @@
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qQT6j7184gIXsJs7TVI5-7" value="«Componente»&lt;br&gt;&lt;b&gt;Facade&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="qQT6j7184gIXsJs7TVI5-7" value="«Componente»&lt;br&gt;&lt;b&gt;Manejador de Ventas&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="100" y="320" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qQT6j7184gIXsJs7TVI5-8" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="qQT6j7184gIXsJs7TVI5-7">
@@ -36,7 +36,7 @@
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qQT6j7184gIXsJs7TVI5-9" value="«Componente»&lt;br&gt;&lt;b&gt;Facade&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="qQT6j7184gIXsJs7TVI5-9" value="«Componente»&lt;br&gt;&lt;b&gt;Manejador de Inventario&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="280" y="320" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qQT6j7184gIXsJs7TVI5-10" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="qQT6j7184gIXsJs7TVI5-9">
@@ -44,7 +44,7 @@
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qQT6j7184gIXsJs7TVI5-11" value="«Componente»&lt;br&gt;&lt;b&gt;Facade&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="qQT6j7184gIXsJs7TVI5-11" value="«Componente»&lt;br&gt;&lt;b&gt;Manejador de Finanzas&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="470" y="320" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qQT6j7184gIXsJs7TVI5-12" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="qQT6j7184gIXsJs7TVI5-11">
@@ -77,7 +77,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qQT6j7184gIXsJs7TVI5-19" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="110" y="380" width="60" height="80" as="geometry" />
+          <mxGeometry x="100" y="380" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qQT6j7184gIXsJs7TVI5-20" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="280" y="380" width="60" height="80" as="geometry" />
@@ -149,6 +149,14 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="365" y="330" as="sourcePoint" />
             <mxPoint x="345" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qQT6j7184gIXsJs7TVI5-37" value="«Componente»&lt;br&gt;&lt;b&gt;Autenticador&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="460" y="190" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qQT6j7184gIXsJs7TVI5-38" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="qQT6j7184gIXsJs7TVI5-37">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
